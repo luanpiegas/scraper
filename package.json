@@ -1,0 +1,22 @@
+{
+  "name": "webscraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "dev": "nodemon -r dotenv/config src/index",
+    "start": "node -r dotenv/config src/index"
+  },
+  "keywords": [],
+  "author": "Luan Piegas",
+  "license": "ISC"
+}
